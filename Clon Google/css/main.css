@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .nav-right-section a:hover{
+    text-decoration: underline;
+}
+
+nav .nav-right-section a {
+    margin: 10px;
+    color:#424242;
+}
+nav .nav-right-section .menu-icon {
+background-image: url('https://icon-library.com/images/app-menu-icon/app-menu-icon-10.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+width: 25px;
+height: 25px;
+cursor: pointer;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+}
+
+main {
+    margin-top: 8px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 272px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 560px;
+    height: 44px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 465px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+    background-image: url('https://alicannklc.gallerycdn.vsassets.io/extensions/alicannklc/phpsearch/1.0.2/1554932681892/Microsoft.VisualStudio.Services.Icons.Default');
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+main .button-notshow {
+    visibility: hidden;
+}
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons button {
+    height: 36px;
+    width: 170px;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 0, 15px;
+    font-size: 14px;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+main .main-buttons button:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+footer {
+    width: 100%;
+    height: 46px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #dadce0;
+}
+
+
+footer ul {
+    margin: 15px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-left {
+    display: flex;
+    justify-self: left;
+}
+
+footer .footer-right {
+    display: flex;
+    justify-self: right;
+}
+
+footer li a {
+    margin: 15px;
+    font-size: 14px;
+    color: #70757a;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+}
